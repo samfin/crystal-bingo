@@ -8,7 +8,7 @@ function bingosetup() {
         for (var i = 0; i < 5; i++) {
           items.push($(cells[i]).html());
         };
-        window.open('https://heyimtg.github.io/AmazingMirrorBingo/popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, copyhistory=no, width=300, height=720");
+        window.open('popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, copyhistory=no, width=300, height=720");
     });
   
     $("#bingo tr td:not(.popout), #selected td").toggle(
