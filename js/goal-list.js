@@ -1,5 +1,5 @@
 var bingoList = [];
-bingoList["info"] = {version: "InDev"};
+bingoList["info"] = {version: "08-12-2019"};
 
 bingoList[1] = [
 	{ name: "Swallow An Enemy That Would Give You UFO", types: [ "ufo" ], subtypes: [ "stars", "gobbler" ] },
