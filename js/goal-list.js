@@ -1,5 +1,5 @@
 var bingoList = [];
-bingoList["info"] = {version: "15-02-2020"};
+bingoList["info"] = {version: "(v2 Beta) 15-02-2020"};
 
 bingoList[1] = [
 	{ name: "Mustard Mountain Map", types: [ "Mustard_West", "Mustard_Map" ], subtypes: [ "Rainbow_Switches", "Mustard_Switch" ] },
