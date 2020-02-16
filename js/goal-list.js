@@ -1,5 +1,5 @@
 var bingoList = [];
-bingoList["info"] = {version: "(v2 Beta) 16-02-2020"};
+bingoList["info"] = {version: "15-02-2020"};
 
 bingoList[1] = [
 	{ name: "Mustard Mountain Map", types: [ "Mustard_West", "Mustard_Map" ], subtypes: [ "Rainbow_Switches", "Mustard_Switch" ] },
@@ -87,7 +87,7 @@ bingoList[9] = [
 	{ name: "Enter The West Mustard Goal Mirror (Bombar)", types: [ "Mustard_WGoal", "Mustard_West" ], subtypes: [ "Mustard_Bombar", "Mustard_Spray" ] },
 	{ name: "Mega Titan's Mirror Shard", types: [ "MegaTitan", "Carrot" ], subtypes: [ "Carrot_Vitality" ] },
 	{ name: "Enter Both Moonlight Mansion Goal Mirrors", types: [ "Moonlight_FGoal", "Moonlight_MGoal", "Moonlight_Forest", "Moonlight_Mansion" ], subtypes: [ "Moonlight_Batafire", "Moonlight_Boxy", "Moonlight_Sprays", "Moonlight_Sheet" ] },
-	{ name: "Defeat 2 Different Bonkers", types: [ "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
+	{ name: "Defeat 2 Different Bonkers", types: [ "Radish_Bonkers", "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
 	{ name: "Hit The Olive Ocean Switch", types: [ "Olive_Switch", "Olive" ], subtypes: [ "Olive_Vitality" ] }
 ];
 
@@ -183,7 +183,7 @@ bingoList[19] = [
 	{ name: "Crazy Hand's Mirror Shard", types: [ "Crazy", "Candy" ], subtypes: [ "" ] },
 	{ name: "Mega Titan And Wiz's Mirror Shards", types: [ "MegaTitan", "Wiz" ], subtypes: [ "Carrot_Vitality", "Carrot_PhanPhan" ] },
 	{ name: "Defeat Each Miniboss In Cabbage Cavern Once", types: [ "Cabbage_Bonkers", "Cabbage_Batafire", "Cabbage_BoxBoxer", "Cabbage_West", "Cabbage_East" ], subtypes: [ "Cabbage_Switches", "Moley", "Cabbage_Sheets", "Cabbage_Sprays" ] },
-	{ name: "Defeat 3 Different Bonkers", types: [ "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
+	{ name: "Defeat 3 Different Bonkers", types: [ "Radish_Bonkers", "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
 	{ name: "4 Music Sheets", types: [ "Rainbow_Sheet", "Moonlight_Sheet", "Carrot_Sheet", "Peppermint_Sheets", "Cabbage_Sheets", "Olive_Sheet", "Candy_Sheet", "Radish_Sheet" ], subtypes: [ "" ] },
 	{ name: "Defeat Each Miniboss In Radish Ruins Once", types: [ "Radish", "Radish_Bonkers", "Radish_Boxy", "Radish_Hand" ], subtypes: [ "Radish_WGoal", "Radish_Map", "MetaKnight" ] },
 	{ name: "3 Mirror Shards", types: [ "Moley", "Kracko", "MegaTitan", "Gobbler", "Wiz", "MetaKnight", "Crazy" ], subtypes: [ "" ] }
@@ -205,7 +205,7 @@ bingoList[21] = [
 	{ name: "Defeat Each Miniboss In Mustard Mountain Once", types: [ "Mustard_Bombar", "Mustard_PhanPhan", "Mustard_Boxy", "Mustard_Batafire", "Mustard_BoxBoxer", "Mustard_West", "Mustard_East" ], subtypes: [ "Kracko", "Mustard_Switch", "Mustard_Spray", "Mustard_Warpstar" ] },
 	{ name: "Defeat 4 Different Box Boxers", types: [ "Rainbow_BoxBoxer", "Cabbage_BoxBoxer", "Mustard_BoxBoxer", "Peppermint_BoxBoxer", "Candy_BoxBoxer" ], subtypes: [ "Rainbow_NWGoal", "Mustard_Warpstar", "Cabbage_Switches" ] },
 	{ name: "7 Maps", types: [ "Everywhere", "Mustard_Map", "Cabbage_Map", "Olive_Map", "Radish_Map", "Peppermint_Map", "Candy_Map", "Carrot_Map" ], subtypes: [ "" ] },
-	{ name: "Defeat 4 Different Bonkers", types: [ "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
+	{ name: "Defeat 4 Different Bonkers", types: [ "Radish_Bonkers", "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
 	{ name: "Defeat 3 Different Phan Phans", types: [ "Mustard_PhanPhan", "Peppermint_PhanPhan", "Carrot_PhanPhan", "Candy_PhanPhan" ], subtypes: [ "Mustard_Warpstar", "Mustard_BoxBoxer", "Candy_Vitality", "Peppermint_WGoal", "MegaTitan" ] }
 ];
 
@@ -221,7 +221,7 @@ bingoList[22] = [
 bingoList[23] = [
 	{ name: "5 Music Sheets", types: [ "Rainbow_Sheet", "Moonlight_Sheet", "Carrot_Sheet", "Peppermint_Sheets", "Cabbage_Sheets", "Olive_Sheet", "Candy_Sheet", "Radish_Sheet" ], subtypes: [ "" ] },
 	{ name: "9 Vitality", types: [ "Everywhere", "Cabbage_Vitality", "Radish_Vitality", "Candy_Vitality", "Olive_Vitality" ], subtypes: [ "Gobbler", "MegaTitan" ] },
-	{ name: "Defeat 5 Different Bonkers", types: [ "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
+	{ name: "Defeat 5 Different Bonkers", types: [ "Radish_Bonkers", "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
 	{ name: "8 Maps", types: [ "Everywhere", "Mustard_Map", "Cabbage_Map", "Olive_Map", "Radish_Map", "Peppermint_Map", "Candy_Map", "Carrot_Map" ], subtypes: [ "" ] },
 	{ name: "Hit 12 Switches", types: [ "Everywhere", "Peppermint_Switches", "Mustard_Switch", "Candy_Switch", "Olive_Switch", "Rainbow_Switches", "Cabbage_Switches" ], subtypes: [ "" ] },
 	{ name: "4 Mirror Shards", types: [ "Everywhere", "Moley", "Kracko", "MegaTitan", "Gobbler", "Wiz", "MetaKnight", "Crazy" ], subtypes: [ "" ] }
