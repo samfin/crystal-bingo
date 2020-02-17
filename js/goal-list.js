@@ -1,5 +1,5 @@
 var bingoList = [];
-bingoList["info"] = {version: "(v2 Beta) 15-02-2020"};
+bingoList["info"] = {version: "(v2 Beta) 17-02-2020"};
 
 bingoList[1] = [
 	{ name: "Mustard Mountain Map", types: [ "Mustard_West", "Mustard_Map" ], subtypes: [ "Rainbow_Switches", "Mustard_Switch" ] },
@@ -42,7 +42,7 @@ bingoList[4] = [
 ];
 
 bingoList[5] = [
-	{ name: "Sound Player", types: [ "Candy", "Sound_Player" ], subtypes: [ "Candy_Switch", "Candy_Sprays" ] },
+	{ name: "Sound Player", types: [ "Candy", "Sound_Player" ], subtypes: [ "Candy_Vitality", "Candy_PhanPhan", "Candy_Switch", "Candy_Sprays" ] },
 	{ name: "Hit All 4 Rainbow Route Switches", types: [ "Rainbow_Switches", "Rainbow_East", "Rainbow_West" ], subtypes: [ "Carrot", "Mustard_Switch" ] },
 	{ name: "Defeat The Carrot Castle Phan Phan", types: [ "Carrot_PhanPhan", "Carrot" ], subtypes: [ "Carrot_Vitality", "MegaTitan" ] },
 	{ name: "Carrot Castle Vitality", types: [ "Carrot_Vitality", "Carrot" ], subtypes: [ "Carrot_PhanPhan", "MegaTitan" ] },
@@ -65,7 +65,7 @@ bingoList[7] = [
 	{ name: "Defeat 2 Different Batafires", types: [ "Rainbow_Batafire", "Moonlight_Batafire", "Cabbage_Batafire", "Mustard_Batafire" ], subtypes: [ "" ] },
 	{ name: "Defeat The Candy Constellation Phan Phan", types: [ "Candy_PhanPhan", "Candy" ], subtypes: [ "Candy_Vitality" ] },
 	{ name: "Defeat The Radish Ruins Bonkers", types: [ "Radish_Bonkers", "Radish" ], subtypes: [ "Radish_Vitality" ] },
-	{ name: "Defeat The Rainbow Route Box Boxer", types: [ "Rainbow_BoxBoxer", "Rainbow_West" ], subtypes: [ "Rainbow_NWGoal" ] },
+	{ name: "Defeat The Rainbow Route Box Boxer", types: [ "Rainbow_BoxBoxer", "Rainbow_West" ], subtypes: [ "Rainbow_Spray", "Rainbow_NWGoal" ] },
 	{ name: "Enter The East Radish Goal Mirror (Emerald)", types: [ "Radish_EGoal", "Radish" ], subtypes: [ "Radish_Spray" ] },
 	{ name: "Touch The Mustard Mountain Overworld Warp Star", types: [ "Mustard_Warpstar", "Mustard_West" ], subtypes: [ "Sound_Player", "Mustard_BoxBoxer", "Mustard_PhanPhan", "Candy" ] },
 	{ name: "Candy Constellation Vitality", types: [ "Candy_Vitality", "Candy" ], subtypes: [ "Candy_PhanPhan" ] }
@@ -78,12 +78,12 @@ bingoList[8] = [
 	{ name: "Hit All 3 Cabbage Cavern Switches", types: [ "Cabbage_Switches", "Cabbage_East", "Cabbage_West" ], subtypes: [ "Cabbage_Batafire", "Cabbage_BoxBoxer", "Cabbage_Map", "Cabbage_Sheets", "Moley", "Cabbage_Sprays" ] },
 	{ name: "Defeat The Candy Constellation Box Boxer", types: [ "Candy_BoxBoxer", "Candy" ], subtypes: [ "Candy_WGoal" ] },
 	{ name: "Touch The Peppermint Palace Overworld Warp Star", types: [ "Peppermint_Warpstar", "Peppermint" ], subtypes: [ "Peppermint_Frosty", "Candy" ] },
-	{ name: "Touch The Carrot Castle Overworld Warp Star", types: [ "Carrot_Warpstar", "Carrot" ], subtypes: [ "Peppermint" ] }
+	{ name: "Touch The Carrot Castle Overworld Warp Star", types: [ "Carrot_Warpstar", "Carrot" ], subtypes: [ "Carrot_Sheet", "Peppermint" ] }
 ];
 
 bingoList[9] = [
 	{ name: "Candy Constellation Map", types: [ "Candy_Map", "Candy" ], subtypes: [ "Candy_Bonkers" ] },
-	{ name: "Carrot Castle Map", types: [ "Carrot_Map", "Carrot" ], subtypes: [ "MegaTitan" ] },
+	{ name: "Carrot Castle Map", types: [ "Carrot_Map", "Carrot" ], subtypes: [ "MegaTitan", "Carrot_Sheet" ] },
 	{ name: "Enter The West Mustard Goal Mirror (Bombar)", types: [ "Mustard_WGoal", "Mustard_West" ], subtypes: [ "Mustard_Bombar", "Mustard_Spray" ] },
 	{ name: "Mega Titan's Mirror Shard", types: [ "MegaTitan", "Carrot" ], subtypes: [ "Carrot_Vitality" ] },
 	{ name: "Enter Both Moonlight Mansion Goal Mirrors", types: [ "Moonlight_FGoal", "Moonlight_MGoal", "Moonlight_Forest", "Moonlight_Mansion" ], subtypes: [ "Moonlight_Batafire", "Moonlight_Boxy", "Moonlight_Sprays", "Moonlight_Sheet" ] },
@@ -103,7 +103,7 @@ bingoList[10] = [
 
 bingoList[11] = [
 	{ name: "Operate Both Castle/Ruins Tunnel Levers", types: [ "CCRRPassage" ], subtypes: [ "Radish", "Carrot" ] },
-	{ name: "Defeat 2 Different Box Boxers", types: [ "Rainbow_BoxBoxer", "Cabbage_BoxBoxer", "Mustard_BoxBoxer", "Peppermint_BoxBoxer", "Candy_BoxBoxer" ], subtypes: [ "Peppermint_Sheets", "Mustard_Warpstar", "Rainbow_NWGoal", "Candy_WGoal", "Cabbage_Switches" ] },
+	{ name: "Defeat 2 Different Box Boxers", types: [ "Rainbow_BoxBoxer", "Cabbage_BoxBoxer", "Mustard_BoxBoxer", "Peppermint_BoxBoxer", "Candy_BoxBoxer" ], subtypes: [ "Rainbow_Spray", "Peppermint_Sheets", "Mustard_Warpstar", "Rainbow_NWGoal", "Candy_WGoal", "Cabbage_Switches" ] },
 	{ name: "Defeat The Candy Constellation Bonkers", types: [ "Candy_Bonkers", "Candy" ], subtypes: [ "Candy_Map", "Candy_EGoal" ] },
 	{ name: "Use The Radish Ruins Cannon", types: [ "Radish_Cannon", "Radish" ], subtypes: [ "Radish_Boxy", "Radish_WGoal" ] },
 	{ name: "Defeat The Peppermint Palace Phan Phan", types: [ "Peppermint_PhanPhan", "Peppermint" ], subtypes: [ "Peppermint_WGoal" ] },
@@ -163,7 +163,7 @@ bingoList[17] = [
 	{ name: "All 3 Peppermint Palace Sprays (Snow, Grape, Pink)", types: [ "Peppermint_Sprays", "Peppermint" ], subtypes: [ "Peppermint_Warpstar", "Peppermint_Frosty", "Candy_Sprays", "Wiz", "Peppermint_Bonkers", "Peppermint_Map" ] },
 	{ name: "8 Vitality", types: [ "Cabbage_Vitality", "Radish_Vitality", "Candy_Vitality", "Olive_Vitality" ], subtypes: [ "Carrot_PhanPhan", "Gobbler", "MegaTitan", "Candy_PhanPhan" ] },
 	{ name: "Enter Every Room In Moonlight Mansion", types: [ "Moonlight_Forest", "Moonlight_Mansion" ], subtypes: [ "Moonlight_Batafire", "MMOOPassage", "Moonlight_Sprays", "Moonlight_MGoal", "Moonlight_FGoal", "Moonlight_Warpstar", "Moonlight_Boxy", "Moonlight_Bonkers", "Moonlight_Sheet" ] },
-	{ name: "Defeat 3 Different Box Boxers", types: [ "Rainbow_BoxBoxer", "Cabbage_BoxBoxer", "Mustard_BoxBoxer", "Peppermint_BoxBoxer", "Candy_BoxBoxer" ], subtypes: [ "Peppermint_Sheets", "Mustard_Warpstar", "Rainbow_NWGoal", "Candy_WGoal", "Cabbage_Switches" ] },
+	{ name: "Defeat 3 Different Box Boxers", types: [ "Rainbow_BoxBoxer", "Cabbage_BoxBoxer", "Mustard_BoxBoxer", "Peppermint_BoxBoxer", "Candy_BoxBoxer" ], subtypes: [ "Rainbow_Spray", "Peppermint_Sheets", "Mustard_Warpstar", "Rainbow_NWGoal", "Candy_WGoal", "Cabbage_Switches" ] },
 	{ name: "Enter Both Radish Ruins Goal Mirrors", types: [ "Radish_WGoal", "Radish_EGoal", "Radish" ], subtypes: [ "Radish_Map", "Radish_Boxy", "Radish_Spray" ] },
 	{ name: "Enter Both Peppermint Palace Goal Mirrors", types: [ "Peppermint_EGoal", "Peppermint_WGoal", "Peppermint" ], subtypes: [ "Peppermint_Sheets", "Peppermint_PhanPhan" ] },
 	{ name: "Enter The East Olive Goal Mirror (Mr. Frosty)", types: [ "Olive_EGoal", "Olive" ], subtypes: [ "Olive_Frosty", "Olive_Sheet" ] }
@@ -203,7 +203,7 @@ bingoList[21] = [
 	{ name: "Enter Every Room In Carrot Castle", types: [ "Carrot" ], subtypes: [ "Carrot_Spray", "Carrot_Vitality", "Carrot_PhanPhan", "Carrot_Sheet" ] },
 	{ name: "Defeat Each Miniboss In Rainbow Route Once", types: [ "Rainbow_Hand", "Rainbow_Batafire", "Rainbow_BoxBoxer", "Rainbow_East", "Rainbow_West" ], subtypes: [ "Rainbow_Spray", "Rainbow_SWGoal", "Rainbow_NWGoal", "Rainbow_SEGoal" ] },
 	{ name: "Defeat Each Miniboss In Mustard Mountain Once", types: [ "Mustard_Bombar", "Mustard_PhanPhan", "Mustard_Boxy", "Mustard_Batafire", "Mustard_BoxBoxer", "Mustard_West", "Mustard_East" ], subtypes: [ "Kracko", "Mustard_Switch", "Mustard_Spray", "Mustard_Warpstar" ] },
-	{ name: "Defeat 4 Different Box Boxers", types: [ "Rainbow_BoxBoxer", "Cabbage_BoxBoxer", "Mustard_BoxBoxer", "Peppermint_BoxBoxer", "Candy_BoxBoxer" ], subtypes: [ "Rainbow_NWGoal", "Mustard_Warpstar", "Cabbage_Switches" ] },
+	{ name: "Defeat 4 Different Box Boxers", types: [ "Rainbow_BoxBoxer", "Cabbage_BoxBoxer", "Mustard_BoxBoxer", "Peppermint_BoxBoxer", "Candy_BoxBoxer" ], subtypes: [ "Rainbow_Spray", "Rainbow_NWGoal", "Mustard_Warpstar", "Cabbage_Switches" ] },
 	{ name: "7 Maps", types: [ "Everywhere", "Mustard_Map", "Cabbage_Map", "Olive_Map", "Radish_Map", "Peppermint_Map", "Candy_Map", "Carrot_Map" ], subtypes: [ "" ] },
 	{ name: "Defeat 4 Different Bonkers", types: [ "Radish_Bonkers", "Moonlight_Bonkers", "Cabbage_Bonkers", "Olive_Bonkers", "Peppermint_Bonkers", "Candy_Bonkers" ], subtypes: [ "Candy_Map", "Peppermint_Map", "Moley" ] },
 	{ name: "Defeat 3 Different Phan Phans", types: [ "Mustard_PhanPhan", "Peppermint_PhanPhan", "Carrot_PhanPhan", "Candy_PhanPhan" ], subtypes: [ "Mustard_Warpstar", "Mustard_BoxBoxer", "Candy_Vitality", "Peppermint_WGoal", "MegaTitan" ] }
@@ -230,7 +230,7 @@ bingoList[23] = [
 bingoList[24] = [
 	{ name: "All 7 Olive Ocean Chests", types: [ "Olive_Vitality", "Olive_Map", "Olive_Spray", "Olive_Sheet", "Olive" ], subtypes: [ "Olive_Boxy", "Olive_Bonkers", "UFO", "Gobbler", "Olive_Frosty" ] },
 	{ name: "All 10 Rainbow Route Chests", types: [ "Rainbow_Spray", "Rainbow_Sheet", "Rainbow_East", "Rainbow_West" ], subtypes: [ "Rainbow_Batafire", "Rainbow_BoxBoxer", "Rainbow_Hand", "Rainbow_Switches", "Rainbow_SEGoal", "Rainbow_NWGoal", "Rainbow_SWGoal" ] },
-	{ name: "Open 1 Small Chest From Each Area", types: [ "Everywhere" ], subtypes: [ "" ] },
+	{ name: "Open 1 Small Chest From Each Area", types: [ "Everywhere" ], subtypes: [ "Olive_Switch", "Cabbage_Switches", "Carrot_Switch", "Peppermint_Switch" ] },
 	{ name: "Gobbler And ???'s Mirror Shards", types: [ "Gobbler", "MetaKnight" ], subtypes: [ "Olive_Vitality" ] },
 	{ name: "Touch 4 Different Overworld Warpstars", types: [ "Everywhere", "Moonlight_Warpstar", "Carrot_Warpstar", "Peppermint_Warpstar", "Candy_Warpstar" ], subtypes: [ "Candy" ] },
 	{ name: "All 9 Candy Constellation Chests", types: [ "Candy_Sprays", "Candy_Sheet", "Candy_Vitality", "Candy_Map", "Candy" ], subtypes: [ "Candy_Warpstar", "Candy_Switch", "Candy_Bonkers", "Candy_PhanPhan", "Candy_Hand" ] }
