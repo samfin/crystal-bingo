@@ -1,5 +1,5 @@
 var bingoList = [];
-bingoList["info"] = {version: "(v2 Beta) 17-02-2020"};
+bingoList["info"] = {version: "(v2 Beta) 19-02-2020"};
 
 bingoList[1] = [
 	{ name: "Mustard Mountain Map", types: [ "Mustard_West", "Mustard_Map" ], subtypes: [ "Rainbow_Switches", "Mustard_Switch" ] },
@@ -196,7 +196,7 @@ bingoList[20] = [
 	{ name: "Enter Both Olive Ocean Goal Mirrors", types: [ "Olive_EGoal", "Olive_WGoal", "Olive" ], subtypes: [ "Olive_Frosty", "Olive_Sheet", "Olive_Spray", "Olive_Boxy", "MMOOPassage" ] },
 	{ name: "Defeat Each Miniboss In Candy Constellation Once", types: [ "Candy_PhanPhan", "Candy_BoxBoxer", "Candy_Hand", "Candy_Bonkers", "Candy" ], subtypes: [ "" ] },
 	{ name: "Defeat 4 Different Boxys", types: [ "Mustard_Boxy", "Moonlight_Boxy", "Radish_Boxy", "Olive_Boxy" ], subtypes: [ "Olive_Switch", "Radish_Map", "Mustard_EGoal", "Moonlight_FGoal", "Radish_WGoal", "Moonlight_Warpstar" ] },
-	{ name: "Touch 3 Different Overworld Warpstars", types: [ "Moonlight_Warpstar", "Carrot_Warpstar", "Peppermint_Warpstar", "Candy_Warpstar" ], subtypes: [ "Peppermint_Frosty", "Moonlight_Boxy", "Moonlight_Bonkers", "Candy" ] }
+	{ name: "Touch 3 Different Overworld Warpstars", types: [ "Mustard_Warpstar" , "Moonlight_Warpstar", "Carrot_Warpstar", "Peppermint_Warpstar", "Candy_Warpstar" ], subtypes: [ "Peppermint_Frosty", "Moonlight_Boxy", "Moonlight_Bonkers", "Candy" ] }
 ];
 
 bingoList[21] = [
@@ -232,7 +232,7 @@ bingoList[24] = [
 	{ name: "All 10 Rainbow Route Chests", types: [ "Rainbow_Spray", "Rainbow_Sheet", "Rainbow_East", "Rainbow_West" ], subtypes: [ "Rainbow_Batafire", "Rainbow_BoxBoxer", "Rainbow_Hand", "Rainbow_Switches", "Rainbow_SEGoal", "Rainbow_NWGoal", "Rainbow_SWGoal" ] },
 	{ name: "Open 1 Small Chest From Each Area", types: [ "Everywhere" ], subtypes: [ "Olive_Switch", "Cabbage_Switches", "Carrot_Switch", "Peppermint_Switch" ] },
 	{ name: "Gobbler And ???'s Mirror Shards", types: [ "Gobbler", "MetaKnight" ], subtypes: [ "Olive_Vitality" ] },
-	{ name: "Touch 4 Different Overworld Warpstars", types: [ "Everywhere", "Moonlight_Warpstar", "Carrot_Warpstar", "Peppermint_Warpstar", "Candy_Warpstar" ], subtypes: [ "Candy" ] },
+	{ name: "Touch 4 Different Overworld Warpstars", types: [ "Everywhere", "Mustard_Warpstar", "Moonlight_Warpstar", "Carrot_Warpstar", "Peppermint_Warpstar", "Candy_Warpstar" ], subtypes: [ "Candy" ] },
 	{ name: "All 9 Candy Constellation Chests", types: [ "Candy_Sprays", "Candy_Sheet", "Candy_Vitality", "Candy_Map", "Candy" ], subtypes: [ "Candy_Warpstar", "Candy_Switch", "Candy_Bonkers", "Candy_PhanPhan", "Candy_Hand" ] }
 ];
 
