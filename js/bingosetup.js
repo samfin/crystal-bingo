@@ -13,8 +13,11 @@ function bingosetup() {
   
     $("#bingo tr td:not(.popout), #selected td").toggle(
 		function () {
-		  $(this).addClass("greensquare");
+		  $(this).addClass("bluesquare");
 		},
+    function () {
+      $(this).addClass("greensquare").removeClass("bluesquare");
+    },
 		function () {
 		  $(this).addClass("redsquare").removeClass("greensquare");
 		},
@@ -57,7 +60,7 @@ function bingosetup() {
 		bingoOpts.seed + "</strong>&emsp;Card type: <strong>" + cardType + "</strong></p>");
 
 	
-	var bingoFunc = ootBingoGenerator;
+	var bingoFunc = bingoGenerator;
 	
 	var bingoBoard = bingoFunc(bingoList, bingoOpts);
 	if(bingoBoard) {

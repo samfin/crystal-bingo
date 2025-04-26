@@ -730,6 +730,13 @@ th {
 #bingoPage #bingo tr td.redsquare.hover {
   background: #770022;
 }
+#bingoPage #bingo tr td.bluesquare {
+  background: #0f2f91;
+}
+#bingoPage #bingo tr td.bluesquare:hover,
+#bingoPage #bingo tr td.bluesquare.hover {
+  background: #123ab3;
+}
 #bingoPage #about_bingo {
   float: right;
   width: 350px;
